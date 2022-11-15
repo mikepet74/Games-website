@@ -1,0 +1,26 @@
+#sign{
+    position: static;
+    color: rgb(186, 17, 37);
+    top: 0px;
+    margin-left: 0px;
+    font-size: medium;
+}
+#form{
+    min-width: 350px;
+    min-height: 350px;
+    padding: 50px;
+}
+
+h1{
+    margin: 20px;
+}
+
+@media screen and (max-width: 769px) {
+    #form{
+        min-width: 200px;
+    }
+    h1{
+        margin: 10px;
+    }
+    
+}

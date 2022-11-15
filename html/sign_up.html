@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mike and menash :-)</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/enter_sign_up.css">
+    <script src="../js/main.js"></script>
+    <script src="../js/sign_up.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="../img/logo.jpg" alt="">
+        <h3 class="userHello">Hello <span id="userSpan"></span></h3>
+        <nav>
+            <a id="logIn" href="../index.html">log in</a>
+            <a href="sign_up.html">sign up</a>
+            <a href="games.html">games</a>
+            <a onclick="logOutUser()" href="../index.html">log out</a>
+        </nav>
+    </header>
+    <div id="fixHeader"></div>
+    <div class="center">
+        <form action="sing_up_scces.html" method="get">
+            <h3>registration form</h3>
+            <input type="text" placeholder="Enter your name" id="userFullName" required>
+            <br>
+            <input type="text" placeholder="Eneter your user name" id="userName" required>
+            <br>
+            <input type="email" placeholder="Enter your email" id="userMail" >
+            <br>
+            <input type="password" placeholder="Enter your password" id="userPas" required>
+            <br>
+            <input type="password" placeholder="Enter again your password" id="aginPas" required>
+            <br>
+            <button onclick="btnOnClick()" id="btn" >sign-up</button>
+        </form>
+    </div>
+    <footer >
+        <h4 >desine by mike and or</h4>
+    </footer>
+</body>
+
+</html>

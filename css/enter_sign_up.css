@@ -1,0 +1,74 @@
+form {
+    border: 1px black solid;
+    max-width: 25%;
+    margin: 100px;
+    background: rgb(216, 203, 84);
+    padding: 50px;
+    min-width: 350px;
+    -moz-box-shadow: inset 2px 1px 38px #000000;
+    -webkit-box-shadow: inset 2px 1px 38px #000000;
+    box-shadow: inset 2px 1px 38px #000000;
+    border: inherit 6px #000000;
+    -moz-border-radius-topleft: 25px;
+    -moz-border-radius-topright: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    -moz-border-radius-bottomright: 25px;
+    -webkit-border-top-left-radius: 25px;
+    -webkit-border-top-right-radius: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+    -webkit-border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+input {
+    background: rgba(117, 117, 117, 0);
+    padding: 10px ;
+    margin: 20px;
+    -moz-box-shadow: 3px 1px 23px #000000;
+    -webkit-box-shadow: 3px 1px 23px #000000;
+    box-shadow: 3px 1px 23px #000000;
+    border: inherit 6px #000000;
+    -moz-border-radius-topleft: 25px;
+    -moz-border-radius-topright: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    -moz-border-radius-bottomright: 25px;
+    -webkit-border-top-left-radius: 25px;
+    -webkit-border-top-right-radius: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+    -webkit-border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+button {
+    margin: 20px;
+    border-radius: 25%;
+    width: 75px;
+    height: 75px;
+    background: rgba(117, 117, 117, 0.548);
+}
+
+input[placeholder]{
+    text-align: center;
+}
+
+@media screen and (max-width: 769px) {
+    form{
+        min-width: 45%;
+        padding: 48px;
+        padding-left: 38px;
+    }
+    input{
+        margin: 10px;
+        margin-top: 20px;
+    }
+    button{
+        margin: 15px;
+        height: 40px;
+    }
+}

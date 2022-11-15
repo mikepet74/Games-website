@@ -1,0 +1,55 @@
+
+#wellcome{
+    color: rgb(250, 242, 4);
+    margin-top: 40px;
+}
+
+#games{
+display: flex;
+flex-wrap: wrap;
+}
+.game{
+    width: 452px;
+    min-height: 450px;
+    margin: 100px;
+    margin-bottom: 200px;
+    border: 1px solid black;
+}
+.imges{
+    width: 450px;
+    height: 450px;
+}
+p{
+    margin: 5px;
+}
+
+.gameImg{
+    top: 0px;
+    margin: 0px;
+    position: static;
+}
+
+.description{
+    display: none;
+}
+
+.imges:hover ~ .description{
+    display: block;
+}
+
+.gameImg:hover ~ .description{
+    display: block;
+}
+
+@media screen and (max-width: 769px) {
+    .imges{
+        width: 225px;
+        height: 225px;
+    }
+    .game{
+        min-height: 225px;
+    }
+    .description{
+        display: block;
+    }
+}

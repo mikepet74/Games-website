@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        mike and menash :-)
+    </title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/enter_sign_up.css">
+    <link rel="stylesheet" href="css/log_in.css">
+    <script src="js/main.js"></script>
+    <script src="js/enter.js"></script>
+    <script src="try_b.js"></script>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="img/logo.jpg" alt="">
+        <h3 class="userHello">Hello <span id="userSpan"></span></h3>
+        <nav>
+            <a id="logIn" href="index.html">log in</a>
+            <a href="./html/sign_up.html">sign up</a>
+            <a href="./html/games.html">games</a>
+            <a onclick="logOutUser()" href="index.html">log out</a>
+        </nav>
+    </header>
+    <div id="fixHeader"></div>
+    <div class="center">
+        <div>
+        <form action="html/games.html" method="get" id="form">
+            <h1>Login to the games site</h1>
+            <input id="userNameEnterId" type="text" placeholder="User Name" required><br>
+            <input id="userPasEnter" type="password" placeholder="your password" required><br>
+            <input onclick="subClick()" type="submit" value="send">
+        </form>
+        <br>
+        <h4>Not yet registered for our games site?</h4>
+        <a href="html/sign_up.html" id="sign"><h3>Click here to register</h3></a>
+    </div>
+</div>
+<div id="fixFooter"></div>
+    <footer>
+        <h4>desine by Mike</h4>
+    </footer>
+</body>
+
+</html>
